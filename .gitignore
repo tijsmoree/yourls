@@ -3,32 +3,34 @@
 ############
 
 # Configuration
-user/*
-!user/config-sample.php
+dist/user/*
+!dist/user/config-sample.php
 *.config
 *.conf
-[Rr]obots.txt
+dist/[Rr]obots.txt
 
 # Languages
-user/languages/*
-!user/languages/
+dist/user/languages/*
+!dist/user/languages/
 
 # Plugins
-user/plugins/*
+dist/user/plugins/*
 # Core plugins
-!user/plugins/hyphens-in-urls/
-!user/plugins/random-bg/
-!user/plugins/sample-page/
-!user/plugins/sample-plugin/
-!user/plugins/sample-toolbar/
+!dist/user/plugins/hyphens-in-urls/
+!dist/user/plugins/random-bg/
+!dist/user/plugins/sample-page/
+!dist/user/plugins/sample-plugin/
+!dist/user/plugins/sample-toolbar/
 
 # Pages
-pages/*
-!pages/examplepage.php
+dist/pages/*
+!dist/pages/examplepage.php
 
 # Keep index.html
-!user/index.html
-!user/*/index.html
+!dist/user/index.html
+!dist/user/*/index.html
+
+dist/index.php
 
 ############
 ## Tests
